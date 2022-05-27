@@ -8,17 +8,20 @@ html,body{
   margin: 0;
   display: flex;
 }
+h1{
+  font-weight: 400;
+}
 p{
   color: hsl(217, 12%, 63%);
   margin-bottom:30px;
+  line-height: 1.5rem;
 }
-
 .main{
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: hsl(213, 19%, 18%);
   width:90%;
   max-width: 300px;
-  height: 300px;
+  height: 320px;
   margin: auto;
   padding:25px;
 }
@@ -28,7 +31,7 @@ p{
 .circle{
   border-radius: 20px;
   border-style: none;
-  background-color: hsl(213, 19%, 30%);
+  background-color: hsl(213, 19%, 22%);
   color: hsl(217, 12%, 63%);
   margin-right: 18px;
   height: 39px;
@@ -42,4 +45,25 @@ p{
   border-radius: 20px;
   border: none;
   padding: 10px 0;
+}
+.star{
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+.center-align{
+  text-align: center;
+}
+.selected-rating{
+  color: hsl(25, 70%, 60%);
+  width: 150px;
+  padding: 8px 5px;
+  margin: auto;
+  border: none;
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 20px;
+}
+.thank-you-img{
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
