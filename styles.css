@@ -35,6 +35,10 @@ p{
   height: 39px;
   width: 39px;
 }
+.rating:hover{
+  background-color:#fb7413 ;
+  color: #ffffff ;
+}
 .submit-btn{
   color:	#ffffff ;
   background-color:#fb7413 ;
@@ -43,6 +47,10 @@ p{
   border-radius: 20px;
   border: none;
   padding: 10px 0;
+}
+.submit-btn:hover{
+  background-color: #ffffff ;
+  color: #fb7413 ;
 }
 .star{
   position: relative;
